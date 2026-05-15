@@ -1,0 +1,54 @@
+{
+  "status": "x_post_calendar_manual_post_only_closed_until_human_yes",
+  "manual_post_required": true,
+  "auto_post_enabled": false,
+  "requires_human_approval": true,
+  "human_approval_question": "Do you want Hermes to post or schedule any of these drafts to X? Reply with the exact approved post(s), target time(s), and explicit approval before any write action.",
+  "source_repo": "https://github.com/xai-org/x-algorithm",
+  "fork_repo": "https://github.com/TheMindExpansionNetwork/x-algorithm",
+  "proof_paths": [
+    "docs/social/POST_IMPROVEMENT_GAME_PLAN.md",
+    "docs/social/X_CONTENT_CALENDAR_14_DAY_DRAFT.md"
+  ],
+  "blocked_without_approval": [
+    "public_posting",
+    "x_scheduling",
+    "replies",
+    "direct_messages",
+    "quote_tweets",
+    "paid_promotion",
+    "delete_posts",
+    "claim_revenue",
+    "claim_affiliation",
+    "claim_attendance",
+    "claim_sponsorship"
+  ],
+  "closed_gates": {
+    "public_posting": false,
+    "outreach": false,
+    "paid_promotion": false,
+    "claim_revenue": false,
+    "claim_affiliation": false,
+    "youtube_upload": false,
+    "publishes_stream": false,
+    "records_audio": false,
+    "uploads_private_media": false,
+    "starts_gpu": false,
+    "starts_paid_api": false,
+    "downloads_models": false,
+    "starts_training": false,
+    "submits_hackathon": false,
+    "mutates_cron": false
+  },
+  "schedule_slots": [
+    {"slot": "morning", "time_window_local": "07:00-09:00", "goal": "proof-of-life/useful hook"},
+    {"slot": "midday", "time_window_local": "12:00-14:00", "goal": "conversation and out-of-network reach"},
+    {"slot": "evening", "time_window_local": "17:00-20:00", "goal": "recap and retention"}
+  ],
+  "weekly_ratio": {
+    "build_in_public_proof": 0.40,
+    "scene_worldbuilding": 0.25,
+    "utility_tutorial": 0.20,
+    "conversation_open_loops": 0.15
+  }
+}
